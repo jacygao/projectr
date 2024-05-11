@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "project_r_data_collector": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7249",
+      "launchBrowser": false
+    }
+  }
+}
