@@ -1,7 +1,16 @@
 {
   "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "storage2": {
+      "type": "storage",
+      "connectionId": "dataprocessor",
+      "dynamicId": null
+    },
     "appInsights1": {
-      "type": "appInsights"
+      "type": "appInsights",
+      "connectionId": "APPINSIGHTS_INSTRUMENTATIONKEY"
     },
     "storage1": {
       "type": "storage",
