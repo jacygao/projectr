@@ -3,10 +3,10 @@ using Microsoft.Extensions.Logging;
 using HtmlAgilityPack;
 using Azure.Storage.Blobs;
 using System;
-using Azure.Storage.Queues;
 
 namespace project_r_data_collector
 {
+    // DataProcessor fetches useful site data from html files
     public class DataProcessor
     {
         [FunctionName(nameof(DataProcessor))]
